@@ -1,35 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE html>a
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Acceuil</title>
-		<meta name="description" content="" />
-		<meta name="author" content="Alexandre" />
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-		<link type="text/css"  rel="stylesheet" href="./css/bootstrap.css">
-		<link type="text/css"  rel="stylesheet" href="./css/index.css">
-	</head>
+    <head>
+        <meta charset="utf-8" />
 
-	<body>
-		<div class="container">
-			<header>
-				<svg width="100" height="150" OVERFLOW="visible">
-				   <path d="m32.31429,92.65016l19.14286,11.59133l19.14286,-11.59133l-3.82858,14.76084l-8.80573,12.9497l10.33714,11.13852l2.29715,11.50078l-18.38098,-15.21361l-19.14669,15.21361l1.91812,-10.05185l11.48955,-12.94969l-11.48572,-13.31191l-2.68,-14.03638l0.00001,-0.00001l0.00001,0z" id="svg_4"/>
-				   <ellipse ry="3.44118" rx="25.2686" cy="117.825" cx="52.2228" id="svg_7"/>
-				   <image xlink:href="./media/image/football.png" height="65" width="75" y="29.16" x="15" id="svg_2"/>
-				</svg>
-			</header>
-			
-			<section class="">
-				
-			</section>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Acceuil</title>
+        <meta name="description" content="" />
+        <meta name="author" content="Alexandre" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+        <link type="text/css"  rel="stylesheet" href="./css/bootstrap.css">
+        <link type="text/css"  rel="stylesheet" href="./css/index.css">
+    </head>
 
-			<footer class="">
-				<p>
-					&copy; Copyright  by Alexandre
-				</p>
-			</footer>
-		</div>
-	</body>
+    <body>
+        <div class="container">
+                <div class="row row_background">
+                    <figure class="col-lg-offset-2 col-md-4 col-lg-2">
+                        <svg width="100" height="150">
+                            <path d="m32.31429,92.65016l19.14286,11.59133l19.14286,-11.59133l-3.82858,14.76084l-8.80573,12.9497l10.33714,11.13852l2.29715,11.50078l-18.38098,-15.21361l-19.14669,15.21361l1.91812,-10.05185l11.48955,-12.94969l-11.48572,-13.31191l-2.68,-14.03638l0.00001,-0.00001l0.00001,0z" />
+                            <ellipse ry="3.44118" rx="25.2686" cy="117.825" cx="52.2228"/>
+                            <image xlink:href="./media/image/football.png" height="65" width="75" y="29.16" x="15"/>
+                        </svg>
+                    </figure>
+                    <div class="col-md-8 col-lg-8 hidden-xs">
+                        <p>
+                            <h1> Message de bienvenue</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div class="row row_background">
+                    <div class="a_center">
+                        <p>
+                            <form action="">
+                                <label for="lang">Langue</label>
+                                <select name="lang" id="lang">
+                                    <option option="french">Français</option>
+                                    <option option="english">English</option>
+                                    <option option="tahitian">Tahitien</option>
+                                </select>
+                            </form>
+                        </p>
+                    </div>
+                </div>
+        </div>
+       
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">
+                    Place sticky footer content here.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>

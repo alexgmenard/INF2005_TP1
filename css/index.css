@@ -3,12 +3,26 @@ html,body{
 	width: 100%;
 }
 body { 
-	padding-top: 70px; 
 	background-image: url('../media/image/bora-bora-680115_1920.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	}
-	
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+.a_center {
+    text-align: center;
+}
+.row_background{
+    background-color: rgb(183, 220, 255); 
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 10px;
+    }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -16,27 +30,25 @@ body {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	body{
-		
-	}
+    body{
+        background-image: url('../media/image/divers-123286_1920.jpg');
+    }  
+    figure{
+        text-align: center;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	body{
-		background-image: url('../media/image/divers-123286_1920.jpg');
-	}
+
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-	body{
-		
+
 }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-	body{
-		
-	}
+
 }
