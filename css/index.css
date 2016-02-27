@@ -1,0 +1,42 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body { 
+	padding-top: 70px; 
+	background-image: url('../media/image/bora-bora-680115_1920.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	}
+	
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body{
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body{
+		background-image: url('../media/image/divers-123286_1920.jpg');
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	body{
+		
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	body{
+		
+	}
+}
